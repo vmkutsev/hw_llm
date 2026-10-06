@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-10-01T20:49:32.753182+03:00",
+  "unchanged_starter_functions": [
+    "create_model",
+    "split_dataset",
+    "TimeoutCallback"
+  ],
+  "source_sha256": "7e000058227d8b0904c719ff562e9d63e1533f391f02821771994c0d36118b34",
+  "validated_runs": [
+    {
+      "run": "01_eval1000",
+      "eval_loss": 6.012217044830322,
+      "optimizer_steps": 6001,
+      "callback_stop_seconds": 919.94
+    },
+    {
+      "run": "02_batch16",
+      "eval_loss": 5.9337334632873535,
+      "optimizer_steps": 2681,
+      "callback_stop_seconds": 900.12
+    },
+    {
+      "run": "03_compile_off",
+      "eval_loss": 6.094561576843262,
+      "optimizer_steps": 5019,
+      "callback_stop_seconds": 900.01
+    },
+    {
+      "run": "04_lr3e4",
+      "eval_loss": 4.9209113121032715,
+      "optimizer_steps": 6001,
+      "callback_stop_seconds": 951.1
+    },
+    {
+      "run": "05_lr_extra",
+      "eval_loss": 4.981830596923828,
+      "optimizer_steps": 6001,
+      "callback_stop_seconds": 948.56
+    },
+    {
+      "run": "06_inverse_sqrt",
+      "eval_loss": 5.0991058349609375,
+      "optimizer_steps": 6001,
+      "callback_stop_seconds": 944.87
+    },
+    {
+      "run": "07_combined",
+      "eval_loss": 4.466739177703857,
+      "optimizer_steps": 2646,
+      "callback_stop_seconds": 900.05
+    },
+    {
+      "run": "baseline",
+      "eval_loss": 7.010679721832275,
+      "optimizer_steps": 1401,
+      "callback_stop_seconds": 903.09
+    }
+  ],
+  "checks": [
+    "model parameter count and source hash",
+    "validation IDs and tokenizer/block length",
+    "seed and generation prompts",
+    "finite loss/gradient logs and complete optimizer-step sequence",
+    "actual processed-example counts",
+    "selected model has minimum recorded eval_loss"
+  ],
+  "model_download_verification": "recorded separately in local_model_backup.json once complete"
+}

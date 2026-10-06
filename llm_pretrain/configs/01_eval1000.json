@@ -1,0 +1,6 @@
+{
+  "id": "01_eval1000",
+  "reference": "baseline",
+  "hypothesis": "Reduce evaluation/checkpoint frequency to leave more of the fixed 15 minutes for training.",
+  "training_overrides": {"eval_steps": 1000, "save_steps": 1000}
+}

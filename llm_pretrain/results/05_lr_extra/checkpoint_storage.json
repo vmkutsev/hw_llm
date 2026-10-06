@@ -1,0 +1,12 @@
+{
+  "retained": "Exported best model and tokenizer at run root; checkpoint JSON metadata retained.",
+  "exported_model_sha256": {
+    "model.safetensors": "1d446af3380541cc08633e1a84c54bd8a9aeab0d32fa02313ffa800a6515469b"
+  },
+  "export_verified_identical_to_best_checkpoint": true,
+  "removed_intermediate_checkpoints": [
+    "checkpoint-6000",
+    "checkpoint-6001"
+  ],
+  "note": "Optimizer states removed after completion. Each experiment starts from scratch."
+}

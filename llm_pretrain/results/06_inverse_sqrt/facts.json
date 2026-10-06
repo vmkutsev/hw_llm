@@ -1,0 +1,21 @@
+{
+  "optimizer_steps": 6001,
+  "callback_stop_seconds": 944.87,
+  "last_optimizer_step_wall_seconds": 944.8844358160004,
+  "train_call_seconds_including_final_evaluation_and_save": 999.967,
+  "train_sequences_seen": 24004,
+  "token_positions_seen_including_padding": 12290048,
+  "actual_sequences_per_second_until_stop": 25.404164879983647,
+  "actual_optimizer_steps_per_second_until_stop": 6.351041219995912,
+  "first_eval_step": 1000,
+  "first_eval_loss": 6.421294689178467,
+  "last_weights_eval_loss": 5.0991058349609375,
+  "selected_checkpoint": "output_dir/experiments/06_inverse_sqrt/checkpoint-6001",
+  "selected_checkpoint_eval_loss": 5.0991058349609375,
+  "exp_selected_eval_loss": 163.875310195524,
+  "completed_evaluations_before_stop": 6,
+  "evaluation_seconds_before_stop": 281.2103,
+  "evaluation_fraction_of_time_until_stop": 0.2976134322258651,
+  "first_step_wall_seconds_including_initial_compilation": 28.745309713000097,
+  "throughput_note": "Rates use actual completed steps. Trainer train rates use the planned full epoch despite early stopping."
+}

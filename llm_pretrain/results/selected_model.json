@@ -1,0 +1,18 @@
+{
+  "run": "07_combined",
+  "model_directory": "output_dir/experiments/07_combined",
+  "eval_loss": 4.466739177703857,
+  "candidates": {
+    "01_eval1000": 6.012217044830322,
+    "02_batch16": 5.9337334632873535,
+    "03_compile_off": 6.094561576843262,
+    "04_lr3e4": 4.9209113121032715,
+    "05_lr_extra": 4.981830596923828,
+    "06_inverse_sqrt": 5.0991058349609375,
+    "07_combined": 4.466739177703857
+  },
+  "selection_rule": "Minimum eval_loss on the required first 5000 articles; one seed per run.",
+  "model_sha256": {
+    "model.safetensors": "ff0455bce51f437d13b38b67586f9c320f01e0dd17cfda38ca9e31c51d2ee784"
+  }
+}

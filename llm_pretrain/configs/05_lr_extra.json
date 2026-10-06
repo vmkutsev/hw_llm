@@ -1,0 +1,15 @@
+{
+  "id": "05_lr_extra",
+  "reference": "01_eval1000",
+  "hypothesis": "Test one additional learning rate with all other parameters fixed.",
+  "training_overrides": {
+    "eval_steps": 1000,
+    "save_steps": 1000,
+    "learning_rate": 0.0006
+  },
+  "rate_selection": {
+    "rule": "6e-4 if 3e-4 improves over 5e-5; otherwise 1e-4",
+    "reference_eval_loss": 6.012217044830322,
+    "lr3e4_eval_loss": 4.9209113121032715
+  }
+}

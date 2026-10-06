@@ -1,0 +1,223 @@
+{
+  "runs": [
+    {
+      "run": "baseline",
+      "batch": 4,
+      "learning_rate": 5e-05,
+      "scheduler": "linear",
+      "torch_compile": true,
+      "eval_save_steps": 100,
+      "optimizer_steps": 1401,
+      "selected_step": 1400,
+      "examples": 5604,
+      "stop_seconds": 903.09,
+      "eval_loss": 7.010679721832275,
+      "perplexity_from_eval_loss": 1108.4076577885355,
+      "eval_seconds_before_stop": 640.2751,
+      "examples_per_second": 6.205308815836341,
+      "planned_scheduler_steps": 485016,
+      "last_logged_learning_rate": 4.987624170819445e-05
+    },
+    {
+      "run": "01_eval1000",
+      "batch": 4,
+      "learning_rate": 5e-05,
+      "scheduler": "linear",
+      "torch_compile": true,
+      "eval_save_steps": 1000,
+      "optimizer_steps": 6001,
+      "selected_step": 6001,
+      "examples": 24004,
+      "stop_seconds": 919.94,
+      "eval_loss": 6.012217044830322,
+      "perplexity_from_eval_loss": 408.3877312519456,
+      "eval_seconds_before_stop": 267.5574,
+      "examples_per_second": 26.09254804317262,
+      "planned_scheduler_steps": 485016,
+      "last_logged_learning_rate": 4.940183492293984e-05
+    },
+    {
+      "run": "02_batch16",
+      "batch": 16,
+      "learning_rate": 5e-05,
+      "scheduler": "linear",
+      "torch_compile": true,
+      "eval_save_steps": 1000,
+      "optimizer_steps": 2681,
+      "selected_step": 2681,
+      "examples": 42896,
+      "stop_seconds": 900.12,
+      "eval_loss": 5.9337334632873535,
+      "perplexity_from_eval_loss": 377.5614977195357,
+      "eval_seconds_before_stop": 94.6791,
+      "examples_per_second": 47.655100098412554,
+      "planned_scheduler_steps": 121254,
+      "last_logged_learning_rate": 4.897566375336627e-05
+    },
+    {
+      "run": "03_compile_off",
+      "batch": 4,
+      "learning_rate": 5e-05,
+      "scheduler": "linear",
+      "torch_compile": false,
+      "eval_save_steps": 1000,
+      "optimizer_steps": 5019,
+      "selected_step": 5000,
+      "examples": 20076,
+      "stop_seconds": 900.01,
+      "eval_loss": 6.094561576843262,
+      "perplexity_from_eval_loss": 443.43958836890164,
+      "eval_seconds_before_stop": 233.6018,
+      "examples_per_second": 22.306005284910622,
+      "planned_scheduler_steps": 485016,
+      "last_logged_learning_rate": 4.950311045840072e-05
+    },
+    {
+      "run": "04_lr3e4",
+      "batch": 4,
+      "learning_rate": 0.0003,
+      "scheduler": "linear",
+      "torch_compile": true,
+      "eval_save_steps": 1000,
+      "optimizer_steps": 6001,
+      "selected_step": 6001,
+      "examples": 24004,
+      "stop_seconds": 951.1,
+      "eval_loss": 4.9209113121032715,
+      "perplexity_from_eval_loss": 137.12752223296394,
+      "eval_seconds_before_stop": 278.88370000000003,
+      "examples_per_second": 25.237867965652956,
+      "planned_scheduler_steps": 485016,
+      "last_logged_learning_rate": 0.00029641100953763897
+    },
+    {
+      "run": "05_lr_extra",
+      "batch": 4,
+      "learning_rate": 0.0006,
+      "scheduler": "linear",
+      "torch_compile": true,
+      "eval_save_steps": 1000,
+      "optimizer_steps": 6001,
+      "selected_step": 6000,
+      "examples": 24004,
+      "stop_seconds": 948.56,
+      "eval_loss": 4.981830596923828,
+      "perplexity_from_eval_loss": 145.74093050648028,
+      "eval_seconds_before_stop": 275.5312,
+      "examples_per_second": 25.30541501116709,
+      "planned_scheduler_steps": 485016,
+      "last_logged_learning_rate": 0.0005928220190752779
+    },
+    {
+      "run": "06_inverse_sqrt",
+      "batch": 4,
+      "learning_rate": 0.0003,
+      "scheduler": "inverse_sqrt",
+      "torch_compile": true,
+      "eval_save_steps": 1000,
+      "optimizer_steps": 6001,
+      "selected_step": 6001,
+      "examples": 24004,
+      "stop_seconds": 944.87,
+      "eval_loss": 5.0991058349609375,
+      "perplexity_from_eval_loss": 163.875310195524,
+      "eval_seconds_before_stop": 281.2103,
+      "examples_per_second": 25.404164879983647,
+      "planned_scheduler_steps": 485016,
+      "last_logged_learning_rate": 5.47722557505166e-05
+    },
+    {
+      "run": "07_combined",
+      "batch": 16,
+      "learning_rate": 0.0003,
+      "scheduler": "linear",
+      "torch_compile": true,
+      "eval_save_steps": 1000,
+      "optimizer_steps": 2646,
+      "selected_step": 2646,
+      "examples": 42336,
+      "stop_seconds": 900.05,
+      "eval_loss": 4.466739177703857,
+      "perplexity_from_eval_loss": 87.07233218928397,
+      "eval_seconds_before_stop": 95.875,
+      "examples_per_second": 47.03684478308558,
+      "planned_scheduler_steps": 121254,
+      "last_logged_learning_rate": 0.0002939407206701141
+    }
+  ],
+  "matched_step_6000": {
+    "01_eval1000": {
+      "eval_loss": 6.013796806335449,
+      "examples": 24000
+    },
+    "04_lr3e4": {
+      "eval_loss": 4.923050880432129,
+      "examples": 24000
+    },
+    "05_lr_extra": {
+      "eval_loss": 4.981830596923828,
+      "examples": 24000
+    },
+    "06_inverse_sqrt": {
+      "eval_loss": 5.099398612976074,
+      "examples": 24000
+    }
+  },
+  "checks": {
+    "identical_architecture_split_and_timeout_ast": true,
+    "identical_training_source_hash": true,
+    "same_seed_and_prompts": true,
+    "complete_training_logs": true,
+    "matched_generation_settings": true,
+    "two_local_models_sha256_verified": true
+  },
+  "matched_example_evaluations": {
+    "eval_frequency": {
+      "examples": 4000,
+      "runs": {
+        "baseline": {
+          "optimizer_steps": 1000,
+          "eval_loss": 7.2614312171936035
+        },
+        "01_eval1000": {
+          "optimizer_steps": 1000,
+          "eval_loss": 7.261218547821045
+        }
+      }
+    },
+    "compile": {
+      "examples": 20000,
+      "runs": {
+        "01_eval1000": {
+          "optimizer_steps": 5000,
+          "eval_loss": 6.095258712768555
+        },
+        "03_compile_off": {
+          "optimizer_steps": 5000,
+          "eval_loss": 6.094561576843262
+        }
+      }
+    },
+    "batch_size": {
+      "examples": 16000,
+      "runs": {
+        "01_eval1000": {
+          "optimizer_steps": 4000,
+          "eval_loss": 6.232438087463379
+        },
+        "02_batch16": {
+          "optimizer_steps": 1000,
+          "eval_loss": 6.697729587554932
+        },
+        "04_lr3e4": {
+          "optimizer_steps": 4000,
+          "eval_loss": 5.22731876373291
+        },
+        "07_combined": {
+          "optimizer_steps": 1000,
+          "eval_loss": 5.283188343048096
+        }
+      }
+    }
+  }
+}

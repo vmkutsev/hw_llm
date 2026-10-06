@@ -1,0 +1,19 @@
+{
+  "id": "07_combined",
+  "reference": "04_lr3e4",
+  "hypothesis": "Train the selected combination from scratch and measure its result.",
+  "training_overrides": {
+    "eval_steps": 1000,
+    "save_steps": 1000,
+    "learning_rate": 0.0003,
+    "per_device_train_batch_size": 16,
+    "torch_compile": true
+  },
+  "factor_sources": {
+    "batch_size": "02_batch16",
+    "torch_compile": "01_eval1000",
+    "learning_rate": "04_lr3e4",
+    "schedule": "04_lr3e4"
+  },
+  "selection_rule": "Lowest selected-checkpoint eval_loss within each matched comparison."
+}

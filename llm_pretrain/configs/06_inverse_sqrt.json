@@ -1,0 +1,11 @@
+{
+  "id": "06_inverse_sqrt",
+  "reference": "04_lr3e4",
+  "hypothesis": "Compare inverse-square-root decay with the original linear schedule; keep peak LR and warmup fixed.",
+  "training_overrides": {
+    "eval_steps": 1000,
+    "save_steps": 1000,
+    "learning_rate": 0.0003,
+    "lr_scheduler_type": "inverse_sqrt"
+  }
+}

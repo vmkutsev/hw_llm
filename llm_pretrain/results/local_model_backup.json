@@ -1,0 +1,8 @@
+{
+  "run": "07_combined",
+  "path": "saved_models/07_combined",
+  "sha256_verified": {
+    "model.safetensors": "ff0455bce51f437d13b38b67586f9c320f01e0dd17cfda38ca9e31c51d2ee784"
+  },
+  "completed_at": "2026-10-01T21:01:31.437546+03:00"
+}

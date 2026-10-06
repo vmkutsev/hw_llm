@@ -1,0 +1,10 @@
+{
+  "Dockerfile": {
+    "url": "https://drive.google.com/file/d/1FaG5DYtiUpLNQXcVhusCsD0sjCpgbjKN/view",
+    "sha256": "39561757676094425a7e0161567f748f8a9b99b953b51e26fa8c93c27d90ff22"
+  },
+  "your_solution.py": {
+    "url": "https://drive.google.com/file/d/1vPmNU45wi8DPVPF_abDLZHgEhtjWKqor/view",
+    "sha256": "09866c0e39f699ebedcaf96080ba602e1a0315ee2b22f06430e410a3184c5381"
+  }
+}

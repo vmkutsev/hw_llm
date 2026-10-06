@@ -1,0 +1,9 @@
+{
+  "id": "02_batch16",
+  "reference": "01_eval1000",
+  "hypothesis": "Measure the effect of batch size 16 under the same wall-time limit and learning rate.",
+  "training_overrides": {
+    "eval_steps": 1000, "save_steps": 1000,
+    "per_device_train_batch_size": 16
+  }
+}

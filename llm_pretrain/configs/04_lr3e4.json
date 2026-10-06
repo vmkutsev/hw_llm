@@ -1,0 +1,9 @@
+{
+  "id": "04_lr3e4",
+  "reference": "01_eval1000",
+  "hypothesis": "Measure learning rate 0.0003 versus 0.00005 with batch size and scheduler held fixed.",
+  "training_overrides": {
+    "eval_steps": 1000, "save_steps": 1000,
+    "learning_rate": 0.0003
+  }
+}

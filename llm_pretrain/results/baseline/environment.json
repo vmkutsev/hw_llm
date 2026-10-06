@@ -1,0 +1,11 @@
+{
+  "python": "3.11.11",
+  "torch": "2.6.0+cu118",
+  "cuda": "11.8",
+  "gpu": "NVIDIA A100 80GB PCIe",
+  "triton_ptxas_path": "/usr/local/cuda/bin/ptxas",
+  "gpu_memory_bytes": 84929216512,
+  "parameters": 960881664,
+  "parameter_dtype": "torch.bfloat16",
+  "source_sha256": "7e000058227d8b0904c719ff562e9d63e1533f391f02821771994c0d36118b34"
+}

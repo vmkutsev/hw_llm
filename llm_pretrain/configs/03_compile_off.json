@@ -1,0 +1,9 @@
+{
+  "id": "03_compile_off",
+  "reference": "01_eval1000",
+  "hypothesis": "Measure whether compilation pays off within 15 minutes on this GPU and driver.",
+  "training_overrides": {
+    "eval_steps": 1000, "save_steps": 1000,
+    "torch_compile": false
+  }
+}
