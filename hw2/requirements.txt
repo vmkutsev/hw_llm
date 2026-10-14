@@ -1,0 +1,7 @@
+transformers==4.56.2
+datasets==3.6.0
+accelerate==1.6.0
+trl==0.23.1
+liger-kernel==0.6.2
+jupyterlab==4.4.9
+flash-attn==2.7.3

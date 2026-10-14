@@ -1,0 +1,50 @@
+[
+  {
+    "loss": 11.2191,
+    "grad_norm": 2.59375,
+    "learning_rate": 1.3499999999999998e-05,
+    "epoch": 0.01451378809869376,
+    "optimizer_step": 10,
+    "elapsed_seconds": 18.402342705987394
+  },
+  {
+    "loss": 11.0896,
+    "grad_norm": 2.8125,
+    "learning_rate": 2.8499999999999998e-05,
+    "epoch": 0.02902757619738752,
+    "optimizer_step": 20,
+    "elapsed_seconds": 30.55193554982543
+  },
+  {
+    "loss": 10.4476,
+    "grad_norm": 3.21875,
+    "learning_rate": 4.3499999999999993e-05,
+    "epoch": 0.04354136429608128,
+    "optimizer_step": 30,
+    "elapsed_seconds": 42.960720697417855
+  },
+  {
+    "loss": 9.4229,
+    "grad_norm": 1.1953125,
+    "learning_rate": 5.85e-05,
+    "epoch": 0.05805515239477504,
+    "optimizer_step": 40,
+    "elapsed_seconds": 54.90960743650794
+  },
+  {
+    "loss": 8.6925,
+    "grad_norm": 0.953125,
+    "learning_rate": 7.35e-05,
+    "epoch": 0.07256894049346879,
+    "optimizer_step": 50,
+    "elapsed_seconds": 67.05449176579714
+  },
+  {
+    "loss": 8.3742,
+    "grad_norm": 0.53515625,
+    "learning_rate": 8.849999999999998e-05,
+    "epoch": 0.08708272859216255,
+    "optimizer_step": 60,
+    "elapsed_seconds": 79.36603429913521
+  }
+]

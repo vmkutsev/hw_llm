@@ -1,0 +1,8 @@
+{
+  "name": "03_checkpoint",
+  "seconds": 90,
+  "attention": "sdpa",
+  "settings": {
+    "gradient_checkpointing": true
+  }
+}

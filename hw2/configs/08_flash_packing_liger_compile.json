@@ -1,0 +1,10 @@
+{
+  "name": "08_flash_packing_liger_compile",
+  "seconds": 90,
+  "attention": "flash_attention_2",
+  "settings": {
+    "packing": true,
+    "use_liger_kernel": true,
+    "torch_compile": true
+  }
+}

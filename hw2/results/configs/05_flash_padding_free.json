@@ -1,0 +1,8 @@
+{
+  "name": "05_flash_padding_free",
+  "seconds": 90,
+  "attention": "flash_attention_2",
+  "settings": {
+    "padding_free": true
+  }
+}

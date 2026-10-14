@@ -1,0 +1,8 @@
+{
+  "name": "06_flash_packing",
+  "seconds": 90,
+  "attention": "flash_attention_2",
+  "settings": {
+    "packing": true
+  }
+}

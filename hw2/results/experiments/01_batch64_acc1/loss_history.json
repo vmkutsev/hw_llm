@@ -1,0 +1,10 @@
+[
+  {
+    "loss": 11.2277,
+    "grad_norm": 5.90625,
+    "learning_rate": 1.3499999999999998e-05,
+    "epoch": 0.00261437908496732,
+    "optimizer_step": 10,
+    "elapsed_seconds": 10.992298019118607
+  }
+]

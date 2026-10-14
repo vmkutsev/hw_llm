@@ -1,0 +1,6 @@
+{
+  "name": "baseline",
+  "seconds": 300,
+  "attention": "sdpa",
+  "settings": {}
+}

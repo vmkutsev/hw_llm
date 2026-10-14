@@ -1,0 +1,9 @@
+{
+  "name": "01_batch64_acc1",
+  "seconds": 90,
+  "attention": "sdpa",
+  "settings": {
+    "per_device_train_batch_size": 64,
+    "gradient_accumulation_steps": 1
+  }
+}

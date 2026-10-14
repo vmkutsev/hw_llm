@@ -1,0 +1,11 @@
+{
+  "name": "final",
+  "seconds": 300,
+  "attention": "flash_attention_2",
+  "settings": {
+    "packing": true,
+    "use_liger_kernel": true,
+    "per_device_train_batch_size": 64,
+    "gradient_accumulation_steps": 1
+  }
+}

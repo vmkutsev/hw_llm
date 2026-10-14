@@ -1,0 +1,8 @@
+{
+  "name": "04_offload",
+  "seconds": 90,
+  "attention": "sdpa",
+  "settings": {
+    "activation_offloading": true
+  }
+}

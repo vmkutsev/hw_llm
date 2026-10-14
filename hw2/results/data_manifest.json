@@ -1,0 +1,77 @@
+{
+  "starter_sha256": "eb24509433f8cf1ed54e5b19356e9cb4431b54a842e18daebcb70db92d76eba3",
+  "wikipedia_revision": "b04c8d1ceb2f5cd4588862100d08de323dccfbaa",
+  "tokenizer_revision": "a9307e696cd3c5b7f953ff4cb19d76a4d81821d5",
+  "source_articles": 50500,
+  "validation_source_articles": 500,
+  "evaluation_paragraphs": 512,
+  "article_overlap": 0,
+  "splits": {
+    "train": {
+      "paragraphs": 244768,
+      "articles_with_paragraphs": 47231,
+      "minimum_length": 33,
+      "maximum_length": 512,
+      "mean_length": 90.98499395345797,
+      "target_tokens": 22025447
+    },
+    "validation": {
+      "paragraphs": 2928,
+      "articles_with_paragraphs": 484,
+      "minimum_length": 33,
+      "maximum_length": 512,
+      "mean_length": 91.97540983606558,
+      "target_tokens": 266376
+    }
+  },
+  "files": {
+    "dataset/dataset_dict.json": {
+      "bytes": 35,
+      "sha256": "88b5b05fc757e76e7edc779db90e96cb6d76538b93165d6ce962a818801babf4"
+    },
+    "dataset/train/data-00000-of-00001.arrow": {
+      "bytes": 94361688,
+      "sha256": "193ef7d544c09634b252fa5e1474265a6686a7d72f3d2b8a1f4db11d12270677"
+    },
+    "dataset/train/dataset_info.json": {
+      "bytes": 381,
+      "sha256": "28e912959809fe7f444f039b70ebb39bd75cfebd6cfdf594019daa0dcfe0014e"
+    },
+    "dataset/train/state.json": {
+      "bytes": 247,
+      "sha256": "e52025171c215b47c0c17405d062ca4b22920ec3aba5140606959019af63f39c"
+    },
+    "dataset/validation/data-00000-of-00001.arrow": {
+      "bytes": 1133952,
+      "sha256": "3163b189c823ee0e85c0e345ebe4ea6e8fe0150129ec4c0a55c02cf32fc4349b"
+    },
+    "dataset/validation/dataset_info.json": {
+      "bytes": 381,
+      "sha256": "28e912959809fe7f444f039b70ebb39bd75cfebd6cfdf594019daa0dcfe0014e"
+    },
+    "dataset/validation/state.json": {
+      "bytes": 247,
+      "sha256": "c8732aacd1d39e274007526005a616b5a517c7694bfc18def71f3d6ab4f0e015"
+    },
+    "tokenizer/merges.txt": {
+      "bytes": 1270925,
+      "sha256": "bd05ba8658a199897510cd84cd98ec1424c812259db6e03319c33a5bfcac2b90"
+    },
+    "tokenizer/special_tokens_map.json": {
+      "bytes": 574,
+      "sha256": "e53a361197eef930e9ffc9382610779bd5e0b3ebe421a03dcc5b37f8a8f508e9"
+    },
+    "tokenizer/tokenizer.json": {
+      "bytes": 5187206,
+      "sha256": "bf63967a23ce498b4b8c776dae8ba6045150c6b05fc83f44e3b81b36c1f70bed"
+    },
+    "tokenizer/tokenizer_config.json": {
+      "bytes": 1281,
+      "sha256": "15667560e6a366438eaebff4259da2bcd6e8edf867aafd791a2cb3b9d5d11013"
+    },
+    "tokenizer/vocab.json": {
+      "bytes": 1612610,
+      "sha256": "a7be5387908a52936262a09514bf0a9327ff17981097b6b2225c67120fd905a5"
+    }
+  }
+}

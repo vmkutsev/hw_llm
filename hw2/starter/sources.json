@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Dockerfile",
+    "source_url": "https://drive.google.com/file/d/1X6CIPgI8owvjXR2-DH-D40lD1jzEkflz/view",
+    "bytes": 790,
+    "sha256": "27b9da389ef80f3ee22c4b8899266a27bec3c1bd3d6bdd454551dd35553c2ad4"
+  },
+  {
+    "name": "train.py",
+    "source_url": "https://drive.google.com/file/d/1mdtn1HyY9gbZgy-DnJCGDiVgJ4T1vd-Y/view",
+    "bytes": 9911,
+    "sha256": "eb24509433f8cf1ed54e5b19356e9cb4431b54a842e18daebcb70db92d76eba3"
+  },
+  {
+    "name": "communications.ipynb",
+    "source_url": "https://drive.google.com/file/d/1aakQa_0FlNI3qx5_dk5Km9jrQ3ap0K7x/view",
+    "bytes": 5205,
+    "sha256": "af8ed5d0bd43cec03d6072281c02674886e219675c464a09d3d9ad46be99d9bc"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "02_flash",
+  "seconds": 90,
+  "attention": "flash_attention_2",
+  "settings": {}
+}

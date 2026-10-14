@@ -1,0 +1,17 @@
+data/
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.runtime/
+
+# Local infrastructure and raw service diagnostics are not submission materials.
+/aviflow_pipeline.py
+/fetch_results.py
+/results/artifact.json
+/results/ca_provenance.json
+/results/runtime.json
+/results/logs/
+/results/code/
+/results/experiments/*/run_metadata.json
+/results/experiments/*/experiment.json
