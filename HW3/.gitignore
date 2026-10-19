@@ -1,0 +1,13 @@
+.runtime/
+.cache/
+.venv/
+data/
+outputs/model/
+outputs/full_sft/
+outputs/checkpoint-*/
+__pycache__/
+*.pyc
+*.safetensors
+*.bin
+*.pt
+*.pth

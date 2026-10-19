@@ -1,0 +1,44 @@
+[
+  {
+    "path": "starter/sft_function_calling_hw_student.ipynb",
+    "drive_id": "1EDJ1sKqHcZIHlQGl4HgTSaalOQfyaeKy",
+    "sha256": "3d16503cd762de15c644361d6a8ef7838d292c4c23fd18cf12a09545a2ab9ea7",
+    "bytes": 26941
+  },
+  {
+    "path": "smart_home.py",
+    "drive_id": "1KmI3TfYg-zgRtBIQQq1wSgl8PL0e6UbT",
+    "sha256": "48639c7238b3214a7e16e60daeb90018b3bac183b9e71ee83dec9871d60fbcc4",
+    "bytes": 4640
+  },
+  {
+    "path": "chat_ui.py",
+    "drive_id": "1GFOI9qp2p_mot9xvriFKFpw1rEFKVzf2",
+    "sha256": "af8e8df1cc48cbfd9ed3300a2cd6910e0fa027171503c08bb2a05edb8679c2e6",
+    "bytes": 3947
+  },
+  {
+    "path": "starter/make_student_version.py",
+    "drive_id": "1jwOtIrHI4E6E3f1EZgSBTNPolaF7pE6D",
+    "sha256": "06bcfbac9a0e25dbec04707f223352fc23254cf623502825e99d039f721bf944",
+    "bytes": 1481
+  },
+  {
+    "path": "data/train.jsonl",
+    "drive_id": "155hkhzw4QWJoA0VlgNWRItOs5Mzy06_u",
+    "sha256": "3ce307895527fe614c8738c32bb67d03a9559ae8e76bed8d854999f15d253d33",
+    "bytes": 2366850
+  },
+  {
+    "path": "data/validation.jsonl",
+    "drive_id": "1m5eIj6zkRt5T1E6uwszG0NYzZrUKIvW7",
+    "sha256": "57ffc6406375f6bbf20b21dac0d8d82a1ca30160ddb4d81ffe24a69e876ef1d8",
+    "bytes": 251813
+  },
+  {
+    "path": "data/test_cases.jsonl",
+    "drive_id": "1p2aU8-_v1vqG1w2vYGxGDS3x626Y3Buv",
+    "sha256": "778e161d6d79b1064eacbe4a25c0e51b39c19128892fcb6dbea2573932c78b0c",
+    "bytes": 17851
+  }
+]
