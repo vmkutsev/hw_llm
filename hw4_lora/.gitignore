@@ -1,0 +1,13 @@
+.runtime/
+.venv/
+.cache/
+.ruff_cache/
+data/
+checkpoints/
+rerun/
+__pycache__/
+*.pyc
+*.safetensors
+*.bin
+*.pt
+*.partial

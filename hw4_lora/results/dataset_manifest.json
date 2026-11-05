@@ -1,0 +1,70 @@
+{
+  "dataset": "amazon-science/esci-data",
+  "revision": "7916cdf6ab75a462e77f20ab40428a10923998d5",
+  "locale": "us",
+  "selection": "small_version=1; whole query groups; SHA256 sampling",
+  "seed": 42,
+  "source_files": {
+    "examples": {
+      "bytes": 51286808,
+      "sha256": "4a735b693b4a424a6fc67f5be6e4c811495c488bbf66d02a602d308b2744263a"
+    },
+    "products": {
+      "bytes": 1108857465,
+      "sha256": "25124442d064d64b26f74082d6fa09438d679efc0c183cf28d19064a2b65a265"
+    }
+  },
+  "eligible_query_groups": {
+    "train": 20888,
+    "test": 8956
+  },
+  "exclusions_before_sampling": {},
+  "splits": {
+    "test": {
+      "pairs": 5285,
+      "queries": 256,
+      "labels": {
+        "C": 217,
+        "E": 2330,
+        "I": 816,
+        "S": 1922
+      },
+      "blank_titles": 0,
+      "sha256": "ea1e48415c8e70cce50daa359c36b021ed9ce6db5964961499af3c58b9b5054f"
+    },
+    "train": {
+      "pairs": 12039,
+      "queries": 600,
+      "labels": {
+        "C": 469,
+        "E": 5065,
+        "I": 2147,
+        "S": 4358
+      },
+      "blank_titles": 0,
+      "sha256": "37e0b57dcc78619d591206d2db038998ec77b48234f275b5a928d843fb8b3d40"
+    },
+    "validation": {
+      "pairs": 2450,
+      "queries": 128,
+      "labels": {
+        "C": 82,
+        "E": 1063,
+        "I": 463,
+        "S": 842
+      },
+      "blank_titles": 0,
+      "sha256": "a7d90f2939b7ef7cf9f5710fdc6d521c16e2a90134f1784641d3ca05e74d61f8"
+    }
+  },
+  "manual_ids": [
+    1949992,
+    1542397,
+    1007916,
+    614204,
+    212849,
+    2197897,
+    57,
+    1031647
+  ]
+}

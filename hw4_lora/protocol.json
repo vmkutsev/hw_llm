@@ -1,0 +1,15 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct", "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "seed": 42, "epochs": 2, "batch_size": 32, "eval_batch_size": 64, "learning_rate": 0.00005,
+  "warmup_fraction": 0.06, "weight_decay": 0.01, "max_grad_norm": 1.0, "max_tokens": 256,
+  "runs": {
+    "base": {"mode":"base"},
+    "full": {"mode":"full"},
+    "lora_ref": {"mode":"lora","r":8,"alpha":16,"dropout":0.05,"modules":["q_proj","v_proj"]},
+    "lora_r32": {"mode":"lora","r":32,"alpha":16,"dropout":0.05,"modules":["q_proj","v_proj"]},
+    "lora_alpha64": {"mode":"lora","r":8,"alpha":64,"dropout":0.05,"modules":["q_proj","v_proj"]},
+    "lora_drop15": {"mode":"lora","r":8,"alpha":16,"dropout":0.15,"modules":["q_proj","v_proj"]},
+    "lora_all": {"mode":"lora","r":8,"alpha":16,"dropout":0.05,"modules":["q_proj","k_proj","v_proj","o_proj","gate_proj","up_proj","down_proj"]},
+    "lora_r32_alpha64": {"mode":"lora","r":32,"alpha":64,"dropout":0.05,"modules":["q_proj","v_proj"]}
+  }
+}
